@@ -4,4 +4,9 @@ version = "0.1.0"
 authors = ["sceext <sceext@foxmail.com>"]
 edition = "2018"
 
+[features]
+default = ["fmp_uart"]
+fmp_uart = []
+fmp_uart_fmprinter = ["fmp_uart"]
+
 [dependencies]
