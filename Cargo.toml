@@ -10,3 +10,4 @@ fmp_uart = []
 fmp_uart_fmprinter = ["fmp_uart"]
 
 [dependencies]
+libfms = { path = "../libfms.rs" }
