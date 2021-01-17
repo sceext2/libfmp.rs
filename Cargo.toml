@@ -9,6 +9,6 @@ default = ["fmp_uart"]
 crc8 = []
 fmp_uart = ["crc8"]
 fmp_uart_fmprinter = ["fmp_uart"]
-fmp_usb = [""]
+fmp_usb = []
 
 [dependencies]
