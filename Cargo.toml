@@ -6,8 +6,9 @@ edition = "2018"
 
 [features]
 default = ["fmp_uart"]
-fmp_uart = []
+crc8 = []
+fmp_uart = ["crc8"]
 fmp_uart_fmprinter = ["fmp_uart"]
+fmp_usb = [""]
 
 [dependencies]
-libfms = { path = "../libfms.rs" }

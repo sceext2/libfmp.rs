@@ -1,7 +1,7 @@
 # libfmp.rs
 <https://github.com/sceext2/libfmp.rs>
 
-Fat Mosquito Protocol
+Fat Mosquito Protocol (and some Security)
 
 doc: <https://github.com/sceext2/fm01/tree/main/doc/libfm-rs>
 
@@ -12,6 +12,8 @@ TODO
 
 default: `fmp_uart`
 
++ **`crc8`** (TODO)
+
 + **`fmp_uart`** (TODO)
 
 + **`fmp_uart_fmprinter`** (TODO)
@@ -20,12 +22,6 @@ default: `fmp_uart`
 ## Roadmap
 
 TODO features:
-
-+ `fmp_uart_fmesc`
-
-+ `fmp_ir`
-
-+ `fmp_ir_fm02`
 
 + `fmp_usb`
 
